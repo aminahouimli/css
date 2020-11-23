@@ -1,0 +1,82 @@
+body {
+    background-image:url("clouds.jpg");
+    background-color:#bdc3c7;
+    font-size: 94% ;
+    font-family: arial ,sans serif,"lucida sans unicode" ;
+    line-height: 1.5;
+    text-align: left;
+}
+.body {
+    width: 80%;
+    margin:14px auto;
+}
+a {
+    text-decoration: none;
+}
+a:hover, a:active{
+    color: rgb(31, 17, 233);
+}
+    /*        main header   */
+.mainheader img{
+    width:20%;
+    border-radius: 5px;  
+}
+.mainheader nav {
+    float: right;
+    background: rgb(241, 231, 231);
+    width:550px;
+    height: 50px ;
+    border-radius: 8px;
+    
+}
+.mainheader nav ul{
+    text-align:right;
+    list-style:none;
+    margin:5px auto,
+}
+.mainheader nav ul li{
+    display:inline-block;
+    padding: 10px 40px;
+    display: inline-block;
+    height: 20px;
+}
+
+/* main content */
+maincontent{
+    width:70%;
+    float :right;
+}
+/* top content */
+.top_content {
+    font-family: arial,sans serif,"lucida sans unicode" ;
+    background-color:#34495e;
+    border-radius: 5px;
+    padding: 3%;
+    margin: 1%;
+}
+titleArticle{
+    font-family:cursive;
+    font-style: italic;
+    font-size:60%;
+    margin-top:-10px
+}
+.aside_bar {
+background-color:#f7e580;
+padding:3%;
+border-radius: 5px;
+width:90%;
+margin: 1.5% 0 0 1%;
+float:left;
+}
+.aside_bar form contact{
+    width:99%;
+    border-radius: 5px;
+}    
+footer p {
+    float: right;
+    background-color :#2C3A47;
+    width:11%;
+    text-align:center;
+    color:black;
+
+}
